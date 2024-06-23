@@ -15,19 +15,29 @@
   font-family: "Karla" sans-serif;
 }
 
-:root {
-  --text-color:rgb(29, 31, 46);
+.body {
+  visibility: hidden;
+  background: rgb(229, 229, 229);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
   width: 980px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.body {
-  visibility: hidden;
-  background: rgb(229, 229, 229);
 }
 
 /* Site Header */
@@ -93,7 +103,7 @@
   height: 89vh;
   background-image: url(../images/hero-bg.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -280,4 +290,231 @@
   line-height: 28px;
   letter-spacing: 0%;
   text-decoration-line: line-through;
+}
+
+.product {
+  margin-top: 104px;
+}
+
+.product-title {
+  margin-bottom: 100px;
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card__list {
+  display: flex;
+  gap: 17px;
+}
+
+.product-card-item {
+  text-align: center;
+}
+
+.product-card-sale-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-card-sale {
+  color: rgba(29, 31, 46, 0.4);
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.product-card-sale-line {
+  color: rgba(29, 31, 46, 0.4);
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-decoration-line: line-through;
+}
+
+.product-card__title {
+  margin: 25px 0 2px 0;
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.product-card__cost {
+  color: rgb(162, 95, 75);
+  font-family: Karla;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.product-card__list-second {
+  display: flex;
+  gap: 17px;
+  margin: 50px 0;
+}
+
+.product-card__list-third {
+  display: flex;
+  gap: 17px;
+}
+
+.magazine {
+  margin: 150px 0 130px 0;
+}
+
+.magazine-title {
+  margin-bottom: 100px;
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.magazine-content {
+  display: flex;
+  gap: 80px;
+}
+
+.magazine-img-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.magazine-img-second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.magazine-info {
+  text-align: left;
+}
+
+.magazine-info-subtitle {
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.magazine-info-title {
+  margin: 14px 0 15px 0;
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+}
+
+.magazine-info-text {
+  color: rgba(29, 31, 46, 0.7);
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.magazine-info-btn {
+  width: 173px;
+  padding: 9px;
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background: rgb(29, 31, 46);
+  cursor: pointer;
+}
+
+.stories {
+  margin-top: 100px;
+}
+
+.stories-wrapper {
+  text-align: center;
+}
+
+.stories-title {
+  margin-bottom: 102px;
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.stories-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.stories-first {
+  text-align: left;
+}
+
+.stories-first-title {
+  display: block;
+  margin-top: 26px;
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.stories-first-text {
+  margin: 10px 0 16px 0;
+  color: rgba(29, 31, 46, 0.7);
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.stories-first-subtitle {
+  color: rgb(29, 31, 46);
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

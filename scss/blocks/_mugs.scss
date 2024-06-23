@@ -1,0 +1,84 @@
+/* Mugs */
+.mugs {
+    margin-top: 98px; 
+}
+
+.mugs__content {
+    text-align: center;
+}
+
+.mugs__content-title {
+    margin-bottom: 100px;
+    color: var(--text-color);
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.mugs__content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.mugs__content-pink {
+    text-align: center;
+}
+
+.mugs__content-pink-title {
+    margin: 30px 0 5px 0;
+    color: var(--text-color);
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.mugs__content-pink-cost {
+    color: rgba(29, 31, 46, 0.7);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.mugs__content-golden {
+    text-align: center;
+}
+.mugs__content-golden-title {
+    margin: 30px 0 5px 0;
+    color: var(--text-color);
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.mugs__content-golden-sale {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.mugs__content-golden-cost {
+    color: rgb(162, 95, 75);
+    font-family: Karla;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.mugs__content-golden-last {
+    margin-top: 3px;
+    color: rgba(29, 31, 46, 0.4);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-decoration-line: line-through;
+}

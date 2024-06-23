@@ -1,0 +1,58 @@
+.stories {
+    margin-top: 100px;
+}
+
+.stories-wrapper {
+    text-align: center;
+}
+
+.stories-title {
+    margin-bottom: 102px;
+    color: rgb(29, 31, 46);
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.stories-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.stories-first {
+    text-align: left;
+}
+
+.stories-first-title {
+    display: block;
+    margin-top: 26px;
+    color: rgb(29, 31, 46);
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.stories-first-text {
+    margin: 10px 0 16px 0;
+    color: rgba(29, 31, 46, 0.7);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.stories-first-subtitle {
+    color: rgb(29, 31, 46);
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

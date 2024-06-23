@@ -1,0 +1,53 @@
+/* Site Header */
+.site-header {
+    padding: 28px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin: 0 50px 0 97px;
+}
+.navbar__list {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar__link {
+    color: var(--text-color);
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header__cart {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.header__cart-btn { 
+    color: var(--text-color);
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header__cart-line {
+    width: 92px;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    background: rgba(162, 95, 75, 0.3);
+}

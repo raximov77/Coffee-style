@@ -1,0 +1,44 @@
+/* Pointing section */
+.pointing {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.pointing__content-title {
+    color: var(--text-color);
+    font-family: Karla;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.pointing__content-text {
+    margin: 16px 0 21px 0;
+    color: rgba(29, 31, 46, 0.7);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.pointing__content-link-wrapper {
+    position: relative;
+}
+.pointing__content-link {
+    color: rgb(162, 95, 75);
+    font-family: Karla;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.pointing__content-line {
+    width: 133px;
+    height: 2px;
+    position: absolute;
+    left: 404px;
+    bottom: -2px;
+    background: rgba(162, 95, 75, 0.2);
+}
